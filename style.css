@@ -180,41 +180,59 @@
 
 
     /* mobile view style */
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       body {
         padding: 5px;
       }
 
-      .content-section {
-        margin: 40px 10px;
-        font-size: 18px;
-        padding: 20px;
+      .circle-container {
+        width: 400px;
+        height: 400px;
       }
 
       .name {
-        font-size: 25px;
+        font-size: 60px;
 
       }
-      .tile-container{
+
+      .content-section {
+        margin: 40px 10px;
+        font-size: 15px;
+        padding: 25px;
+      }
+
+      .social-container {
+        height: 200px;
+      }
+
+      .social-container a {
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+      }
+
+
+      .tile-container {
         margin: 20px 10px;
       }
 
       .tile-content h3 {
-        font-size: 18px;
+        font-size: 38px;
       }
 
       .tile-content p {
-        font-size: 16px;
+        font-size: 35px;
       }
 
       label.tile-header {
-        font-size: 22px;
-        height: 65px;
-        padding: 15px;
+        font-size: 40px;
+        height: 120px;
+        padding: 30px;
       }
-          .tile-triangle {
-      border-top: 8px solid transparent;
-      border-bottom: 8px solid transparent;
-      border-left: 8px solid white;
-    }
+
+      .tile-triangle {
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid white;
+      }
     }
