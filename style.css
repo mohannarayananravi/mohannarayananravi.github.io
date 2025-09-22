@@ -112,7 +112,7 @@
 
     .tile-content {
       max-height: 0;
-      overflow: hidden;
+      overflow: scroll;
       padding: 0 20px;
       background-color: rgba(40, 37, 37, 0.3);
       border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -122,6 +122,7 @@
     .toggle-checkbox:checked+label.tile-header+.tile-content {
       max-height: 500px;
       padding: 20px;
+            overflow: scroll;
     }
 
     .tile-content h3 {
@@ -197,7 +198,7 @@
 
       .content-section {
         margin: 40px 10px;
-        font-size: 15px;
+        font-size: 30px;
         padding: 25px;
       }
 
@@ -216,16 +217,22 @@
         margin: 20px 10px;
       }
 
-      .tile-content h3 {
-        font-size: 38px;
-      }
+      .toggle-checkbox:checked+label.tile-header+.tile-content {
+      max-height: 500px;
+      padding: 20px;
+      overflow: scroll;
+    }
 
-      .tile-content p {
+      .tile-content h3 {
         font-size: 35px;
       }
 
+      .tile-content p {
+        font-size: 30px;
+      }
+
       label.tile-header {
-        font-size: 40px;
+        font-size: 50px;
         height: 120px;
         padding: 30px;
       }
